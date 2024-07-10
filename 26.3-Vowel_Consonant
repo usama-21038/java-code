@@ -1,0 +1,13 @@
+import java.util.*;
+public class Vowel_Consonant{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.print("Enter any character:");
+    char n = input.next().charAt(0); 
+    if(n=='a'||n=='e'||n=='i'||n=='o'||n=='u'||n=='A'||n=='E'||n=='I'||n=='O'||n=='U'){
+        System.out.println("Vowel");
+    }
+    else
+    System.out.println("Consonant");
+    }
+}
