@@ -1,0 +1,18 @@
+import java.util.*;
+public class YesNO{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Do you love Java?");
+        System.out.println("1.Yes\n2.No");
+        int input=sc.nextInt();
+        if(input==1){
+            System.out.println("Yes!\nI love java.");
+        }
+        else if(input==2){
+            System.out.println("No!");
+        }
+        else System.out.println("Error!");
+        
+
+    }
+}
