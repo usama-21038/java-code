@@ -1,0 +1,31 @@
+import java.util.*;
+public class PassFail{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter your marks:");
+        double number=sc.nextDouble();
+        System.out.print("Gread point:");
+        if(number>32){
+            if(number>=80){
+                System.out.println("A+");
+            }
+            else if(number>=70){
+                System.out.println("A");
+            }
+            else if(number>=60){
+                System.out.println("A-");
+            }
+            else if(number>=50){
+                System.out.println("B");
+            }
+            else if(number>=40){
+                System.out.println("C");
+            }
+            else if(number>=33){
+                System.out.println("D");
+            }
+        }else {
+            System.out.println("Fail!");
+        }
+    }
+}
