@@ -1,0 +1,16 @@
+//series-1.5+2.5+3.5+...+n
+import java.util.*;
+public class series_3{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter range:");
+      double n=sc.nextDouble();
+      double sum=0;
+      for(double i=1.5;i<=n;i=i+1){
+       sum=sum+i;
+       System.out.print(i+" ");
+      }
+      System.out.println("\nSum of series: "+sum);
+        
+}
+}
