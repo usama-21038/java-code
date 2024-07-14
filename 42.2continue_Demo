@@ -1,0 +1,11 @@
+import java.util.*;
+public class continue_Demo{
+public static void main(String[] args){
+  for(int i=1;i<=100;i++){
+      if(i==10){
+          continue;//just number 10 is not printed
+      }
+      System.out.print(" "+i);
+      }
+}
+}
