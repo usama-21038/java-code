@@ -5,7 +5,7 @@ public class prime_number{
         int n=0;
         System.out.print("Enter any value:");
          n=sc.nextInt();
-        if(n==1){
+        if(n==1||n==0){
             System.out.println("Prime number!");
         }
         else if(n>=2){
