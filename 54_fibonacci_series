@@ -1,0 +1,23 @@
+import java.util.*;
+public class fibonacci_series{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int temp=0,first=0,second=1,n,fibo;
+        System.out.print("Enter the range of series:");
+         n=sc.nextInt();
+         System.out.print("Fibonacci series:");
+while(temp<n){
+    if(temp<=1){
+        fibo=temp;
+    }
+    else {
+        fibo=first+second;
+        first=second;
+        second=fibo;
+    }
+    System.out.print(" "+fibo);
+    temp++;
+}
+        
+    }
+}
