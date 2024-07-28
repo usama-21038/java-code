@@ -1,0 +1,29 @@
+import java.util.*;
+public class ArrayList_1{
+    public static void main(String[] args){
+        ArrayList<Integer> number=new ArrayList<>();
+        System.out.println("Size="+number.size());
+        //array elements
+        number.add(10);
+        number.add(20);
+        number.add(15);
+        number.add(3,40);
+        //Iterator
+        Iterator itr=number.iterator();
+        while(itr.hasNext()){
+            System.out.print(" "+itr.next());
+        }
+        System.out.println("\nSize="+number.size());
+        //removing element
+        number.remove(2);//index 2 remove hoye jabe
+   // System.out.println(number);
+   
+   System.out.println("\nAfter removing:\n");
+   for(int x:number){
+       System.out.print(" "+x);
+       } System.out.println("\nSize="+number.size());
+       number.removeAll(number);
+    System.out.print(number);
+        
+    }
+}
