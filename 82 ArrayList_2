@@ -1,0 +1,37 @@
+import java.util.*;
+public class ArrayList_2{
+    public static void main(String[] args){
+        ArrayList<Integer> number=new ArrayList<>();
+        System.out.println("Size="+number.size());
+        //array elements
+        number.add(10);
+        number.add(20);
+        number.add(15);
+        number.add(3,40);
+        number.add(32);
+        number.add(47);
+       
+       System.out.println("Array list:"+number);
+      //set method using value for replace
+       number.set(2,50);
+       System.out.println("After set:"+number);
+       //Get method using for get any index value
+       int x=number.get(4);
+       System.out.println("Get the value of index 4="+x);
+       //indexOf method
+       int poss= number.indexOf(20);
+       System.out.print("The index of 20:"+poss);
+       
+        //Check -is arraylist empty
+        boolean check=number.isEmpty();
+        System.out.println("\nArrayList empty:"+check);
+        number.clear();
+         boolean check1=number.isEmpty();
+        System.out.println("ArrayList empty:"+check1);
+        
+        //contails method
+        boolean pos=number.contains(30);
+        System.out.println("30 is in the list:"+pos);
+        
+    }
+}
