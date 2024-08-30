@@ -1,0 +1,18 @@
+import java.util.*;
+public class StringDemo4{
+    public static void main(String[] args){
+        String s1="Bangladesh is my country!";
+       //String a char i replace hoye j hobe 
+       //but s1 ar kono change hobe na
+        String s2=s1.replace('i','j');
+        System.out.println("After replace:"+s2);
+        //string ar space remove kore dibe
+       String[] s3= s1.split(" ");
+       for(String x:s3){
+           System.out.println("S3="+x);
+       }
+        
+
+
+}
+}
