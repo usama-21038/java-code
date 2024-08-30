@@ -1,0 +1,23 @@
+import java.util.*;
+public class StringDemo3{
+    public static void main(String[] args){
+        String country="Bangladesh is my country!";
+      System.out.println(country);
+      //kon index a kon char ase saita check kora
+      char ch=country.charAt(0);
+      System.out.println("Ch:"+ch);
+      //char ar ascii value return korbe
+      int value=country.codePointAt(0);
+      System.out.println("value="+value);
+      //char ar index number ta ber kore dibe
+      int pos=country.indexOf('n');
+      System.out.println("First position of n="+pos);
+      pos=country.lastIndexOf('n');
+      System.out.println("Last position of n="+pos);
+      //first ar last dike joto space thakbe saita remove korbe
+     String s2="   Institute of science & Technology   ";
+      String s3=s2.trim();
+      System.out.println("University:"+s3);
+
+}
+}
