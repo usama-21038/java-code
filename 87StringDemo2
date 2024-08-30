@@ -1,0 +1,23 @@
+import java.util.*;
+public class StringDemo2{
+    public static void main(String[] args){
+        String s1="Usama";
+        String s2=new String(" Bin Hasan");
+        System.out.println("S1="+s1);
+         System.out.println("S2="+s2);
+         //String concat
+         String fullName=s1+s2;
+         System.out.println("Full Name:"+fullName);
+         //uppercase
+         String Upper=fullName.toUpperCase();
+         System.out.println("Upper Case:"+Upper);
+         //lower case
+         String Lower=fullName.toLowerCase();
+         System.out.println("Lower Case:"+Lower);
+         //Amar string 1 U diye start ki na
+         boolean b=fullName.startsWith("U");
+         System.out.println("b="+b);
+         boolean last=fullName.endsWith("n");
+         System.out.println("Last="+last);
+}
+}
